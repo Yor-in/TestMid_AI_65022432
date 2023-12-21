@@ -50,7 +50,8 @@ _ = plot_tree(model,
               precision=3,
               filled=True,
               rounded=True,
-              fontsize=16
+              fontsize=16,
+              max_depth=5
               )
 plt.show()
  
